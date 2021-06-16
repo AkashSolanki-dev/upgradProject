@@ -10,13 +10,15 @@
     <div>
       <header>
         <div>
-          <img
-            src="./assests/images/logo.png"
-            height="200px"
-            width="150px"
-            alt="logo"
-          />
-          <a href="login.html" target="_blank">Login</a>
+          <a href="index.html">
+            <img
+              src="./assests/images/logo.png"
+              height="200px"
+              width="150px"
+              alt="logo"
+            />
+          </a>
+          <a href="login.html" target="_self">Login</a>
         </div>
         <div>
           <img
@@ -24,7 +26,32 @@
             alt="Raddison Blu"
           />
         </div>
-        <a href="payment.html">Book Now</a>
+        <form action="payment.html" method="GET">
+          <div>
+            <div>
+              <label for="adults">Adults: </label>
+              <input type="number" name="adults" id="" min="1" />
+            </div>
+            <div>
+              <label for="name">Name: </label>
+              <input type="text" name="" id="" required />
+            </div>
+            <div>
+              <label for="">From Date: </label>
+              <input type="date" name="" id="" required />
+            </div>
+            <div>
+              <label for="">To Date: </label>
+              <input type="date" name="" id="" />
+            </div>
+            <div>
+              <label for="total">Total: </label>
+              <input type="text" readonly />
+            </div>
+          </div>
+          <button type="submit">Book Now</button>
+        </form>
+
         <h2>Raddison Blu Hotel</h2>
         <p>Rating</p>
         <p>5 Star</p>
@@ -49,7 +76,7 @@
       </content>
       <footer>
         <div>
-          <a href="contact.html" target="_blank">Contact Us</a>
+          <a href="contact.html" target="_self">Contact Us</a>
           <div>
             <a href="https://www.facebook.com/" target="_blank">
               <img
