@@ -1,0 +1,17 @@
+body,
+.container {
+  height: 100%;
+  width: 100%;
+}
+#logo {
+  height: 60px;
+  width: 60px;
+}
+#list-view img {
+  height: 200px;
+  width: 250px;
+}
+.socialmedia {
+  height: 20px;
+  width: 22px;
+}
