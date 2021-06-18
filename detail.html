@@ -19,13 +19,15 @@
           </a>
           <a href="login.html" target="_self">Login</a>
         </div>
+      </header>
+      <main>
         <div class="hotel">
           <img
             src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
             alt="Raddison Blu"
           />
         </div>
-        <form action="payment.html" method="GET">
+        <form action="payment.html" method="GET" id="form">
           <div>
             <div>
               <label for="adults">Adults: </label>
@@ -50,28 +52,26 @@
           </div>
           <button type="submit">Book Now</button>
         </form>
-
-        <h2>Raddison Blu Hotel</h2>
-        <p>Rating</p>
-        <p>5 Star</p>
-        <p>AMENITIES</p>
-        <ul>
-          <li>Room Service</li>
-          <li>Restaurant</li>
-          <li>Business Center</li>
-          <li>Fitness Center</li>
-          <li>Pool</li>
-        </ul>
-        <h5>DESCRIPTION</h5>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio minus
-          libero dolor quo voluptate voluptatum dolorum? Commodi quas, maiores
-          ea dicta voluptas atque nisi quos sapiente ducimus consequuntur
-          quisquam veniam!
-        </p>
-      </header>
-      <main>
-        <div></div>
+        <div id="discription">
+          <h2>Raddison Blu Hotel</h2>
+          <p>Rating</p>
+          <p>5 Star</p>
+          <p>AMENITIES</p>
+          <ul>
+            <li>Room Service</li>
+            <li>Restaurant</li>
+            <li>Business Center</li>
+            <li>Fitness Center</li>
+            <li>Pool</li>
+          </ul>
+          <h5>DESCRIPTION</h5>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio minus
+            libero dolor quo voluptate voluptatum dolorum? Commodi quas, maiores
+            ea dicta voluptas atque nisi quos sapiente ducimus consequuntur
+            quisquam veniam!
+          </p>
+        </div>
       </main>
       <footer>
         <div>
@@ -82,8 +82,6 @@
                 class="socialmedia"
                 src="./assests/images/facebook.png"
                 alt="facebook logo"
-                height="20px"
-                width="22px"
               />
             </a>
             <a href="https://www.instagram.com/" target="_blank">
@@ -91,8 +89,6 @@
                 class="socialmedia"
                 src="./assests/images/instagram.png"
                 alt="instagram logo"
-                height="20px"
-                width="22px"
               />
             </a>
             <a href="https://www.twitter.com/" target="_blank">
@@ -100,8 +96,6 @@
                 class="socialmedia"
                 src="./assests/images/twitter.png"
                 alt="twitter logo"
-                height="20px"
-                width="22px"
               />
             </a>
             <p>&#169; 2020 ROOM SEARCH PVT LTD</p>
