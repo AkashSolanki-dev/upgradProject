@@ -2,30 +2,27 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="styles/list.css" />
+    <link rel="stylesheet" href="styles/common.css" />
     <title>List</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <div>
+        <div class="header">
           <a href="index.html">
-            <img
-              id="logo"
-              src="./assests/images/logo.png"
-              height="200px"
-              width="150px"
-              alt="logo"
-            />
+            <img id="logo" src="./assests/images/logo.png" alt="logo" />
           </a>
           <a href="login.html" target="_self">Login</a>
         </div>
       </header>
       <main>
-        <div>
-          <ul>
-            <li><a href="#list-view">List View</a></li>
-            <li><a href="#map-view">Map View</a></li>
-          </ul>
+        <div id="main">
+          <div class="list">
+            <ul>
+              <li id="item1"><a href="#list-view">List View</a></li>
+              <li id="item2"><a href="#map-view">Map View</a></li>
+            </ul>
+          </div>
           <div id="list-view">
             <a href="detail.html">
               <div>
@@ -58,21 +55,22 @@
               <p>New Delhi</p>
             </div>
           </div>
-          <img
-            src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"
-            alt="map"
-          />
 
           <div id="map-view">
-            <p>MAP VIEW</p>
+            <img
+              src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"
+              alt="map"
+            />
           </div>
         </div>
       </main>
 
       <footer>
-        <div>
-          <a href="contact.html" target="_self">Contact Us</a>
-          <div>
+        <div class="footer">
+          <div id="contact">
+            <a href="contact.html" target="_self">Contact Us</a>
+          </div>
+          <div id="social">
             <a href="https://www.facebook.com/" target="_blank">
               <img
                 class="socialmedia"
@@ -94,8 +92,8 @@
                 alt="twitter logo"
               />
             </a>
-            <p>&#169; 2020 ROOM SEARCH PVT LTD</p>
           </div>
+          <p>&#169; 2020 ROOM SEARCH PVT LTD</p>
         </div>
       </footer>
     </div>

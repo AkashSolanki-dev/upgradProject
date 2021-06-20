@@ -4,32 +4,110 @@ body,
   width: 100%;
   margin: 0%;
   background-color: #e0e0e0;
+  font-family: "Ubuntu", sans-serif;
 }
 #logo {
   height: 60px;
   width: 60px;
+  vertical-align: middle;
+}
+
+.header {
+  background-color: rosybrown;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+}
+
+.header a:last-child {
+  float: right;
+  padding: 1.5%;
+  text-decoration: none;
+  color: black;
+}
+#main {
+  margin-top: 70px;
+  padding-bottom: 80px;
+  padding-top: 10px;
 }
 #list-view img {
   height: 200px;
   width: 250px;
 }
-.socialmedia {
-  height: 20px;
-  width: 22px;
+#list-view div {
+  display: inline-block;
+  margin: 2%;
+  width: 40%;
+  background-color: rgb(132, 136, 139);
 }
-header,
-footer {
+#list-view div:nth-child(odd) {
+  margin-left: 100px;
+}
+#list-view a {
+  text-decoration: none;
+  color: black;
+}
+#map-view {
+  display: none;
+}
+
+.list ul {
+  margin: 0%;
+}
+.list li {
+  display: inline;
+}
+.list a {
+  text-decoration: none;
+  color: black;
+}
+#item1 {
+  position: relative;
+  left: 40%;
+}
+#item2 {
+  position: relative;
+  left: 45%;
+}
+.footer {
   background-color: rosybrown;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
 }
 footer img {
   height: 20px;
   width: 22px;
 }
 footer p {
-  margin-top: 0%;
+  padding-bottom: 0;
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+  font-size: 10px;
 }
-#list-view div {
-  margin: 2%;
-  width: 40%;
-  background-color: rgb(132, 136, 139);
+
+#social {
+  float: right;
+  padding: 1.5%;
+  padding-right: 1%;
+  margin-bottom: 0%;
+}
+.socialmedia {
+  height: 20px;
+  width: 22px;
+}
+#contact {
+  float: left;
+  padding: 1.5%;
+  padding-left: 1%;
+  margin-bottom: 0%;
+  text-decoration: none;
+  color: black;
+}
+#contact a {
+  text-decoration: none;
+  color: black;
 }

@@ -4,34 +4,81 @@ body,
   width: 100%;
   margin: 0%;
   background-color: #e0e0e0;
+  font-family: "Ubuntu", sans-serif;
+}
+.header {
+  background-color: rosybrown;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+}
+
+.header a:last-child {
+  float: right;
+  padding: 1.5%;
+  text-decoration: none;
+  color: black;
 }
 #logo {
   height: 60px;
   width: 60px;
+  vertical-align: middle;
+}
+#main {
+  margin-top: 70px;
+  padding-bottom: 80px;
+  padding-top: 10px;
 }
 .hotel img {
   height: 500px;
   width: 500px;
   margin: 2% 4% 0 4%;
 }
+
+#form {
+  margin: 0% 4% 1%;
+}
+#discription {
+  margin: 1% 4% 2%;
+}
+.footer {
+  background-color: rosybrown;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+}
 .socialmedia {
   height: 20px;
   width: 22px;
-}
-header,
-footer {
-  background-color: rosybrown;
 }
 footer img {
   height: 20px;
   width: 22px;
 }
 footer p {
-  margin-top: 0%;
+  padding-bottom: 0;
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+  font-size: 10px;
 }
-#form {
-  margin: 0% 4% 1%;
+#social {
+  float: right;
+  padding: 1.5%;
+  padding-right: 1%;
+  margin-bottom: 0%;
 }
-#discription {
-  margin: 1% 4% 2%;
+#contact {
+  float: left;
+  padding: 1.5%;
+  padding-left: 1%;
+  margin-bottom: 0%;
+  text-decoration: none;
+  color: black;
+}
+#contact a {
+  text-decoration: none;
+  color: black;
 }

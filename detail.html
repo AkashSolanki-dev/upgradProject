@@ -2,12 +2,13 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="styles/detail.css" />
+    <link rel="stylesheet" href="styles/common.css" />
     <title>Detail</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <div>
+        <div class="header">
           <a href="index.html">
             <img
               id="logo"
@@ -21,62 +22,66 @@
         </div>
       </header>
       <main>
-        <div class="hotel">
-          <img
-            src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-            alt="Raddison Blu"
-          />
-        </div>
-        <form action="payment.html" method="GET" id="form">
-          <div>
-            <div>
-              <label for="adults">Adults: </label>
-              <input type="number" name="adults" id="" min="1" />
-            </div>
-            <div>
-              <label for="name">Name: </label>
-              <input type="text" name="" id="" required />
-            </div>
-            <div>
-              <label for="">From Date: </label>
-              <input type="date" name="" id="" required />
-            </div>
-            <div>
-              <label for="">To Date: </label>
-              <input type="date" name="" id="" />
-            </div>
-            <div>
-              <label for="total">Total: </label>
-              <input type="text" readonly />
-            </div>
+        <div id="main">
+          <div class="hotel">
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+              alt="Raddison Blu"
+            />
           </div>
-          <button type="submit">Book Now</button>
-        </form>
-        <div id="discription">
-          <h2>Raddison Blu Hotel</h2>
-          <p>Rating</p>
-          <p>5 Star</p>
-          <p>AMENITIES</p>
-          <ul>
-            <li>Room Service</li>
-            <li>Restaurant</li>
-            <li>Business Center</li>
-            <li>Fitness Center</li>
-            <li>Pool</li>
-          </ul>
-          <h5>DESCRIPTION</h5>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio minus
-            libero dolor quo voluptate voluptatum dolorum? Commodi quas, maiores
-            ea dicta voluptas atque nisi quos sapiente ducimus consequuntur
-            quisquam veniam!
-          </p>
+          <form action="payment.html" method="GET" id="form">
+            <div>
+              <div>
+                <label for="adults">Adults: </label>
+                <input type="number" name="adults" id="" min="1" />
+              </div>
+              <div>
+                <label for="name">Name: </label>
+                <input type="text" name="" id="" required />
+              </div>
+              <div>
+                <label for="">From Date: </label>
+                <input type="date" name="" id="" required />
+              </div>
+              <div>
+                <label for="">To Date: </label>
+                <input type="date" name="" id="" />
+              </div>
+              <div>
+                <label for="total">Total: </label>
+                <input type="text" readonly />
+              </div>
+            </div>
+            <button type="submit">Book Now</button>
+          </form>
+          <div id="discription">
+            <h2>Raddison Blu Hotel</h2>
+            <p>Rating</p>
+            <p>5 Star</p>
+            <p>AMENITIES</p>
+            <ul>
+              <li>Room Service</li>
+              <li>Restaurant</li>
+              <li>Business Center</li>
+              <li>Fitness Center</li>
+              <li>Pool</li>
+            </ul>
+            <h5>DESCRIPTION</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+              minus libero dolor quo voluptate voluptatum dolorum? Commodi quas,
+              maiores ea dicta voluptas atque nisi quos sapiente ducimus
+              consequuntur quisquam veniam!
+            </p>
+          </div>
         </div>
       </main>
       <footer>
-        <div>
-          <a href="contact.html" target="_self">Contact Us</a>
-          <div>
+        <div class="footer">
+          <div id="contact">
+            <a href="contact.html" target="_self">Contact Us</a>
+          </div>
+          <div id="social">
             <a href="https://www.facebook.com/" target="_blank">
               <img
                 class="socialmedia"
@@ -98,8 +103,8 @@
                 alt="twitter logo"
               />
             </a>
-            <p>&#169; 2020 ROOM SEARCH PVT LTD</p>
           </div>
+          <p>&#169; 2020 ROOM SEARCH PVT LTD</p>
         </div>
       </footer>
     </div>
